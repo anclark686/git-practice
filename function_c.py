@@ -3,7 +3,9 @@ def merge_lists(list_a, list_b):
         a combination of list_a and list_b
         without any duplicate elements.
     """
-    pass
+    list_a.extend(list_b)
+
+    return list_a
 
 
 if __name__ == "__main__":
